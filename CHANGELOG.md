@@ -1,4 +1,4 @@
-v0.0.1-alpha:
+v0.0.1:
 ### Changes
 ### Fixes
 ### Internal
