@@ -3,6 +3,7 @@ package me.zipestudio.ccdc.entrypoint;
 //? if neoforge {
 import me.zipestudio.ccdc.CCDCServer;
 import me.zipestudio.ccdc.client.CCDCClient;
+import me.zipestudio.ccdc.utils.modmenu.ModMenuIntegration;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
@@ -12,6 +13,9 @@ public class ClientEntrypoint {
 
 	public ClientEntrypoint(ModContainer container) {
 		CCDCClient.onInitializeClient();
+
+		ModMenuIntegration integration = new ModMenuIntegration();
+		integration.register(container);
 	}
 
 }

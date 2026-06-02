@@ -6,7 +6,7 @@ loaderVersion="[1,)"
 [[mods]]
 modId = "${mod_id}"
 version = "${mod_version}"
-displayName = "Create: Cats Don't Care"
+displayName = "${mod_name}"
 side="${neoforge_trick_side}"
 displayURL = "https://modrinth.com/mod/${mod_slug}"
 logoFile = "icon/icon.png"
