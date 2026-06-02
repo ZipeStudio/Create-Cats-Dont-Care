@@ -5,3 +5,4 @@ v0.0.2:
 - Updated belt mixin to use config values
 ### Fixes
 ### Internal
+- Code Refactoring
