@@ -1,4 +1,4 @@
-package me.zipestudio.ccatsdontcare.mixin;
+package me.zipestudio.ccdc.mixin;
 
 import com.llamalad7.mixinextras.injector.ModifyReturnValue;
 import com.simibubi.create.AllBlocks;

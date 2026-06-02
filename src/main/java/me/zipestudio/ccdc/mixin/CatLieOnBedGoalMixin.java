@@ -1,15 +1,16 @@
-package me.zipestudio.ccatsdontcare.mixin;
+package me.zipestudio.ccdc.mixin;
+
 
 import com.llamalad7.mixinextras.injector.ModifyReturnValue;
 import com.simibubi.create.AllBlocks;
 import net.minecraft.core.BlockPos;
-import net.minecraft.world.entity.ai.goal.CatSitOnBlockGoal;
+import net.minecraft.world.entity.ai.goal.CatLieOnBedGoal;
 import net.minecraft.world.level.LevelReader;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 
-@Mixin(CatSitOnBlockGoal.class)
-public class CatSitOnBlockGoalMixin {
+@Mixin(CatLieOnBedGoal.class)
+public class CatLieOnBedGoalMixin {
 
     @ModifyReturnValue(
             method = "isValidTarget",

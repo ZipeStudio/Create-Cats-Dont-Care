@@ -1,9 +1,10 @@
-package me.zipestudio.ccatsdontcare.mixin;
+package me.zipestudio.ccdc.mixin;
 
 import com.llamalad7.mixinextras.injector.ModifyReturnValue;
 import com.simibubi.create.content.kinetics.belt.BeltBlock;
 import com.simibubi.create.content.kinetics.belt.BeltBlockEntity;
 import com.simibubi.create.content.kinetics.belt.BeltHelper;
+import me.zipestudio.ccdc.config.LeafyConfig;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.animal.Cat;
@@ -40,7 +41,7 @@ public class BeltBlockMixin {
         if (controller == null)
             return;
 
-        if (Math.abs(controller.getSpeed()) > 64)
+        if (Math.abs(controller.getSpeed()) >= LeafyConfig.getInstance().getBeltMaxSpeed())
             return;
 
         ci.cancel();

@@ -1,14 +1,15 @@
-package me.zipestudio.ccatsdontcare;
+package me.zipestudio.ccdc;
 
 import net.minecraft.network.chat.*;
 import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class CDCServer {
+public class CCDCServer {
 
-	public static final String MOD_NAME = /*$ mod_name*/ "Create Cats Don't Care";
+	public static final String MOD_NAME = /*$ mod_name*/ "Create: Cats Don't Care";
 	public static final String MOD_ID = /*$ mod_id*/ "create_cats_dont_care";
+	public static final String YACL_DEPEND_VERSION = /*$ yacl*/ "3.8.2+1.21.1-neoforge";
 
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_NAME);
 
