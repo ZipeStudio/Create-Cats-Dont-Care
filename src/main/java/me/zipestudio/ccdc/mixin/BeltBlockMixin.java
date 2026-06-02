@@ -41,7 +41,7 @@ public class BeltBlockMixin {
         if (controller == null)
             return;
 
-        if (Math.abs(controller.getSpeed()) >= LeafyConfig.getInstance().getBeltMaxSpeed())
+        if (Math.abs(controller.getSpeed()) > LeafyConfig.getInstance().getBeltMaxSpeed())
             return;
 
         ci.cancel();

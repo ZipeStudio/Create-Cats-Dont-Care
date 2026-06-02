@@ -1,6 +1,9 @@
 {
   "modmenu.descriptionTranslation.${mod_id}": "Позвольте кошкам находить уютные места для отдыха и сна вокруг ваших фабрик Create.",
 
+  "${mod_id}.modmenu.formatter.enabled_or_disabled.true": "Включено",
+  "${mod_id}.modmenu.formatter.enabled_or_disabled.false": "Выключено",
+
   "${mod_id}.modmenu.title": "§lКонфигурация ${mod_name}",
   "${mod_id}.modmenu.no_config_library_screen.message": "Необходимо установить §6§lYet Another Config Lib [YACL]§f, чтобы открыть экран настроек ${mod_name}\n\n§a§lОткрыть страницу §6§lYACL §a§lна Modrinth?",
 
